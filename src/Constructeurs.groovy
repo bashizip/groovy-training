@@ -9,6 +9,7 @@ class Agent extends Personne {
     }
 }
 
+
 static void main(String[] args) {
     Agent agent = new Agent("A58754L", 65)
     def agent1 = ["B525454L", 54] as Agent //opérateur de coercision explicite
